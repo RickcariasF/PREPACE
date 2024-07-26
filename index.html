@@ -1,15 +1,38 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="tailwindcss/index.css">
-    <title>PREPACE HONDURAS</title>
-  </head>
-  <body class="bg-gray-200 flex justify-center items-center h-screen">
-    <div class="flex items-center justify-center">
-      <div>WEB PREPACE</div>
-      <div>Aqui va el contenido de la pagina.</div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="tailwindcss/index.css">
+  <title>PREPACE</title>
+  <script src="burger.js"></script>
+</head>
+
+<body>
+
+  {{>donar}}
+  {{>header}}
+  
+
+  <div class="bg-[url('/img/heroImg.jpg')] bg-no-repeat bg-cover">
+    <div class="bg-black opacity-70">
+      <div class="relative isolate px-6 pt-14 lg:px-8">
+
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+
+          <div class="text-center">
+            <h1 class="text-4xl font-bold tracking-tight sm:text-6xl text-lime-900">PREPACE</h1>
+            <p class="mt-6 text-lg leading-8 text-gray-500">Desde 1986</p>
+          </div>
+
+        </div>
+      </div>
     </div>
-  </body>
+  </div>
+  </div>
+
+  {{>footer}}
+</body>
+
 </html>
