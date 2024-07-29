@@ -7,12 +7,63 @@
     <title>PREPACE</title>
     <script src="main.js" type="module"></script>
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
+    
     {{>donar}}
     {{>header}}
 
-    <!--AQUI VAN A COLOCAR EL CODIGO CON EL CONTENIDO DE SU PAGINA-->
-
+    
+    <div class="h-screen w-screen p-6 overflow-auto">
+        
+        <main class="h-full w-full overflow-y-auto pb-16 pt-12">
+            
+            <div class="text-center my-8">
+                <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Preguntas Frecuentes de PREPACE</h1>
+                <p class="text-lg text-gray-600">Aquí encontrará respuestas a las preguntas más comunes sobre nuestra organización y nuestros servicios.</p>
+            </div>
+            
+            
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-blue-500 transform transition-transform duration-300 hover:scale-102 hover:bg-blue-100">
+                <h1 class="text-3xl font-bold mb-4 text-blue-700">¿Quiénes somos?</h1>
+                <p class="leading-relaxed text-lg">PREPACE es una organización sin fines de lucro, que se dedica a brindar atención a personas con diversos tipos de discapacidad, y a potenciar sus habilidades con el propósito de mejorar su calidad de vida.</p>
+            </section>
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-green-500 transform transition-transform duration-300 hover:scale-102 hover:bg-green-100">
+                <h1 class="text-3xl font-bold mb-4 text-green-700">¿Qué tipo de población atienden?</h1>
+                <p class="leading-relaxed text-lg">En PREPACE se atienden diferentes tipos de discapacidad, actualmente tenemos participantes con diferentes patologías como: Trastorno del Espectro Autista, Parálisis Cerebral, Discapacidad Motora, Síndrome de Down, Trastorno por Déficit de Atención e Hiperactividad, entre otros.</p>
+            </section>
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-yellow-500 transform transition-transform duration-300 hover:scale-102 hover:bg-yellow-100">
+                <h1 class="text-3xl font-bold mb-4 text-yellow-700">¿Cuáles son sus horarios de atención?</h1>
+                <p class="leading-relaxed text-lg">PREPACE abre sus puertas desde las 8am hasta las 2pm de la tarde.</p>
+            </section>
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-red-500 transform transition-transform duration-300 hover:scale-102 hover:bg-red-100">
+                <h1 class="text-3xl font-bold mb-4 text-red-700">¿Su servicio es público o privado?</h1>
+                <p class="leading-relaxed text-lg">Al ser una organización no gubernamental sin fines de lucro, el costo por la atención brindada es simbólico. Puede obtener más información al contactarse con los números de contacto, o acercarse a nuestras instalaciones.</p>
+            </section>
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-purple-500 transform transition-transform duration-300 hover:scale-102 hover:bg-purple-100">
+                <h1 class="text-3xl font-bold mb-4 text-purple-700">¿Qué beneficios tienen los participantes matriculados en cada programa?</h1>
+                <p class="leading-relaxed text-lg">Cada participante en PREPACE es beneficiado con todos los servicios que ofrece la institución, en ellas también se les ofrece atención individualizada a sus necesidades, como en las áreas terapéuticas de rehabilitación como: terapia física y ocupacional, terapia de lenguaje, asistencia médica y odontológica.</p>
+            </section>
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-indigo-500 transform transition-transform duration-300 hover:scale-102 hover:bg-indigo-100">
+                <h1 class="text-3xl font-bold mb-4 text-indigo-700">¿Qué programas y/o servicios ofrece la institución?</h1>
+                <p class="leading-relaxed text-lg">Actualmente PREPACE cuenta con:</p>
+                <ul class="list-disc ml-6 text-lg">
+                    <li>Programa Presencial</li>
+                    <li>Programa de Educación Inclusiva</li>
+                </ul>
+                <p class="leading-relaxed text-lg">Los participantes matriculados en estos programas tienen acceso a todos los servicios médicos, psicopedagógicos y terapéuticos que ofrece la institución.</p>
+            </section>
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-teal-500 transform transition-transform duration-300 hover:scale-102 hover:bg-teal-100">
+                <h1 class="text-3xl font-bold mb-4 text-teal-700">¿La institución cuenta con medidas de accesibilidad para las personas con discapacidad?</h1>
+                <p class="leading-relaxed text-lg">Sí. PREPACE cuenta con adecuaciones ambientales para proporcionar un ambiente libre de barreras o impedimentos que puedan dificultar el traslado de los participantes de un lugar a otro.</p>
+            </section>
+            <section class="m-4 p-6 bg-white rounded-lg shadow-md border-l-4 border-pink-500 transform transition-transform duration-300 hover:scale-102 hover:bg-pink-100">
+                <h1 class="text-3xl font-bold mb-4 text-pink-700">¿Se aceptan voluntarios en la institución? ¿Cómo puedo involucrarme?</h1>
+                <p class="leading-relaxed text-lg">Sí. PREPACE tiene sus puertas abiertas a todas las personas que quieran realizar cualquier tipo de voluntariado en la institución. Para más información pueden contactarnos vía WhatsApp o Correo Electrónico.</p>
+            </section>
+        </main>
+       
+    </div>
     {{>footer}}
+    
 </body>
 </html>
