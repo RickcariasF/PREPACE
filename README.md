@@ -31,4 +31,4 @@ Luis Ariel Valladares Hernández 0801200020100 Github: LuisA1912
 
 RESPONSABILIDAD: DESARROLLO DE LA PAGINA "PREGUNTAS FRECUENTES"
 
-VIDEO DE YOUTUBE: https://www.youtube.com/watch?v=KsfA3iFNNZY
+VIDEO DE YOUTUBE: https://www.youtube.com/watch?v=_EBCroRzEAA
